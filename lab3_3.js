@@ -5,7 +5,7 @@ function isEmpty(obj) {
     return true;
 }
 
-let a = isEmpty({});
-document.write(a, "<br>");
-a = isEmpty({name : "John"});
-document.write(a);
+let check = isEmpty({});
+document.write(check, "<br>");
+check = isEmpty({name : "John"});
+document.write(check);
