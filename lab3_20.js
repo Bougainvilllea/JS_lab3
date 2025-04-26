@@ -17,7 +17,8 @@ class Stock {
     getByW(min_w) {
         let candidates = this.boxes.filter(box => box.weightCapacity >= min_w);
         
-        if (candidates.length === 0) return -1;
+        if (candidates.length === 0) 
+            return -1;
    
         candidates.sort((a, b) => {
             if (a.weightCapacity !== b.weightCapacity) {
