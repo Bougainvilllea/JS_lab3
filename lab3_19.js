@@ -41,5 +41,5 @@ class ExtendedClock extends Clock {
 // let clock = new Clock("h m s");
 // clock.start();
 
-let fastClock = new ExtendedClock("h:m:s", 500); // Интервал 500 мс
+let fastClock = new ExtendedClock("h:m:s", 500); 
 fastClock.start();
