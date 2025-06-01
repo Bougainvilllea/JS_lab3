@@ -15,3 +15,5 @@ let cookes = {
   };
 
 (multiplyNumeric(cookes))
+
+// {"round":666,"caramel":1896,"strawberry":"not available for sale","chocolate":690}
