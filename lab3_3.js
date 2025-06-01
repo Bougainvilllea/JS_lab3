@@ -9,3 +9,6 @@ let check = isEmpty({});
 document.write(check, "<br>");
 check = isEmpty({name : "John"});
 document.write(check);
+
+// true
+// false
